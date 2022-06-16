@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form-backstage.css" />
+    <link rel="stylesheet" href="../新增資料夾/font.css">
+    <link rel="stylesheet" href="../btn.css">
+    <link rel="stylesheet" href="../css/backnav.css">
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+          position: relative;
+      }
+
+      * {
+          font-family: 'Noto Sans TC', 'sans-serif';
+          box-sizing: border-box;
+      }
+  </style>
+  </head>
+
+  <body>
+    <nav>
+      <div id="logo"><img src="../資產 3.png" alt=""></div>
+      <div id="navlist">
+          <div class="subnav">
+              <p>前往網頁</p>
+          </div>
+          <div class="subnav">
+              <p>修改密碼</p>
+          </div>
+          <div class="subnav backstagelist">
+              <p>後台管理　<img src="../down_gray.svg" alt=""></p>
+              <div class="list">
+                  <p onclick="location.href=
+                  'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/topics.html';">最新消息</p>
+                  <img src="../gray_line.svg" alt="">
+                  <p onclick="location.href=
+                  'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/company.html';">合作廠商</p>
+                  <img src="../gray_line.svg" alt="">
+                  <p onclick="location.href=
+                  'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/milestones.html';">公司沿革</p>
+                  <img src="../gray_line.svg" alt="">
+                  <p onclick="location.href=
+                  'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/porfile_edit.html';">關於我們</p>
+                  <img src="../gray_line.svg" alt="">
+                  <p onclick="location.href=
+                  'http://127.0.0.1:5501/banner-manage/index_banner.html';">Banner管理</p>
+                  <img src="../gray_line.svg" alt="">
+                  <p onclick="location.href=
+                  'http://127.0.0.1:5501/product-manage/product_equipment.html';">產品管理</p>
+                  <img src="../gray_line.svg" alt="">
+                  <p onclick="location.href=
+                  'http://127.0.0.1:5501/form-backstage/form-backstage.html';">表單回報</p>
+              </div>
+          </div>
+          <div class="subnav signoutlist">
+              <p>球球，您好　<img src="../down_gray.svg" alt=""></p>
+              <div class="signout">
+                  <p>登出</p>
+              </div>
+          </div>
+      </div>
+  </nav>
+    <main>
+      <div id="page-tittle">
+        <div class="tittle">
+          <h2>表單回報 |</h2>
+        </div>
+      </div>
+      <div id="form-report">
+        <div class="content">
+          <div class="content-tittle">
+            <div class="type">
+              <p>查詢類型</p>
+            </div>
+            <div class="name">
+              <p>姓名</p>
+            </div>
+            <div class="email">
+              <p>Email</p>
+            </div>
+            <div class="state">
+              <p>狀態</p>
+            </div>
+            <div class="comment-date">
+              <p>留言日期</p>
+            </div>
+            <button>檢視</button>
+          </div>
+          <div class="box">
+            <div class="container">
+              <div class="box1">
+                <input type="text"  disabled />
+              </div>
+              <div class="box1">
+                <input type="text"  disabled />
+              </div>
+              <div class="box2">
+                <input type="text" disabled />
+              </div>
+              <div class="box3">
+                <select name="" id="" disabled>
+                  <option value="">尚未回覆</option>
+                  <option value="">已電子郵件聯絡</option>
+                  <option value="">已電話聯繫</option>
+                </select>
+              </div>
+              <div class="box3">
+                <input type="text" disabled />
+              </div>
+              <form action="http://127.0.0.1:5501/form-backstage/form-backstage_edit.html">
+                <button type="submit">檢視</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

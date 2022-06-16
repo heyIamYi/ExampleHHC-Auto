@@ -1,0 +1,108 @@
+.a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.a .btn-edit {
+  margin-bottom: 15px;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #004098;
+  color: azure;
+}
+
+.a .btn-edit:hover {
+  cursor: pointer;
+}
+
+.a .btn-store {
+  margin-bottom: 15px;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+.a .btn-store:hover {
+  cursor: pointer;
+}
+
+.a .btn-delete {
+  margin-bottom: 15px;
+  background-color: red;
+  color: white;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.a .btn-delete:hover {
+  cursor: pointer;
+}
+
+.a .btn-add {
+  margin-bottom: 15px;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #004098;
+  color: azure;
+}
+
+.a .btn-add:hover {
+  cursor: pointer;
+}
+
+.a .btn-cancel {
+  margin-bottom: 15px;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+
+.a .btn-cancel:hover {
+  cursor: pointer;
+}
+
+.a .btn-change {
+  margin-bottom: 15px;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #004098;
+  color: azure;
+}
+
+.a .btn-change:hover {
+  cursor: pointer;
+}
+
+.a .btn-check {
+  margin-bottom: 15px;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+.a .btn-check:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=btn.css.map */

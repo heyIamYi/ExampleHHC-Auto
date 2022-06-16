@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/product_equipment.css" /><link rel="stylesheet" href="./font.css">
+  <link rel="stylesheet" href="../btn.css">
+  <link rel="stylesheet" href="../css/backnav.css">
+</head>
+
+<body>
+  <!-- 頁面導覽列 -->
+  <nav>
+    <div id="logo"><img src="../資產 3.png" alt=""></div>
+    <div id="navlist">
+        <div class="subnav">
+            <p>前往網頁</p>
+        </div>
+        <div class="subnav">
+            <p>修改密碼</p>
+        </div>
+        <div class="subnav backstagelist">
+            <p>後台管理　<img src="../down_gray.svg" alt=""></p>
+            <div class="list">
+                <p onclick="location.href=
+                'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/topics.html';">最新消息</p>
+                <img src="../gray_line.svg" alt="">
+                <p onclick="location.href=
+                'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/company.html';">合作廠商</p>
+                <img src="../gray_line.svg" alt="">
+                <p onclick="location.href=
+                'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/milestones.html';">公司沿革</p>
+                <img src="../gray_line.svg" alt="">
+                <p onclick="location.href=
+                'http://127.0.0.1:5501/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99%E5%A4%BE/porfile_edit.html';">關於我們</p>
+                <img src="../gray_line.svg" alt="">
+                <p onclick="location.href=
+                'http://127.0.0.1:5501/banner-manage/index_banner.html';">Banner管理</p>
+                <img src="../gray_line.svg" alt="">
+                <p onclick="location.href=
+                'http://127.0.0.1:5501/product-manage/product_equipment.html';">產品管理</p>
+                <img src="../gray_line.svg" alt="">
+                <p onclick="location.href=
+                'http://127.0.0.1:5501/form-backstage/form-backstage.html';">表單回報</p>
+            </div>
+        </div>
+        <div class="subnav signoutlist">
+            <p>球球，您好　<img src="../down_gray.svg" alt=""></p>
+            <div class="signout">
+                <p>登出</p>
+            </div>
+        </div>
+    </div>
+</nav>
+  <!-- 頁面內容 -->
+  <main>
+    <!-- 頁面標題列表 -->
+    <div id="tittle-list-id">
+      <div class="list-tittle">
+        <h1>產品管理</h1>
+        <ul>
+          <li>設備</li>
+          <li>軟體</li>
+          <li>部品零件</li>
+          <li>耗材</li>
+          <li>維修</li>
+        </ul>
+      </div>
+      <div class="list-container">
+        <!-- 欄位名稱 -->
+        <div class="field-section">
+          <div class="content">
+            <div class="field-img">
+              <p>圖片/影片</p>
+            </div>
+            <div class="field-name">
+              <p>產品名稱</p>
+            </div>
+            <div class="field-radation">
+              <p>排序</p>
+            </div>
+            <div class="field-star">
+              <p>主打產品</p>
+            </div>
+            <div class="field-button">
+            </div>
+          </div>
+        </div>
+        <!-- 內容 -->
+        <div class="content-section">
+          <form action="">
+            <!-- 圖片 -->
+            <div class="content-img">
+              <img src="./img/Rectangle 154.png" alt="" />
+            </div>
+            <!-- 產品名稱 -->
+            <div class="product-name">
+              <input type="text" disabled>
+            </div>
+            <!-- 排序 -->
+            <div class="image-gradation">
+              <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+              </select>
+            </div>
+            <!-- 主打產品 -->
+            <div class="produt-star">
+              <input type="text" disabled />
+            </div>
+            <!-- 功能按鈕 -->
+            <div class="function-button">
+              <button>編輯</button>
+              <button>刪除</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- 頁面內容 -->
+</body>
+
+</html>
