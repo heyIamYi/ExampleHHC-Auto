@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../後台nav/form-backstage/scss/template.scss"
+        "../form-backstage/scss/template.scss"
     ],
     "names": [],
     "file": "template.css"
